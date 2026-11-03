@@ -43,7 +43,7 @@ def main() -> None:
 
     if missing_conf:
         print("\nWARNING: Critical configuration missing!")
-        print("The following variables are not see: "
+        print("The following variables are not set: "
               f"{', '.join(missing_conf)}")
         print("Please check your .env file or environment variables.")
 
